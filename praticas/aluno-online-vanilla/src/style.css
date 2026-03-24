@@ -15,7 +15,6 @@ body {
   line-height: 1.6;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-
   display: flex;
   min-height: 100vh;
 }
@@ -96,7 +95,6 @@ article {
   border: 1px solid #d0d0d0;
 }
 
-
 article h3 {
   background-color: #e0e0e0;
   padding: 6px 10px;
@@ -104,7 +102,6 @@ article h3 {
   font-size: 14px;
   margin-bottom: 10px;
 }
-
 
 article ul {
   list-style: none;
@@ -115,8 +112,7 @@ article li {
   margin-bottom: 6px;
 }
 
-
-@media (max-width: 768px) {
+@media (width <= 768px) {
   body {
     flex-direction: column;
   }
