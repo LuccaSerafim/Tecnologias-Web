@@ -1,15 +1,15 @@
 :root {
-  --cor-fundo: #ffffff;
+  --cor-fundo: #fff;
   --cor-texto: #1a1a1a;
-  --cor-borda: #cccccc;
-  --cor-borda-foco: #888888;
+  --cor-borda: #ccc;
+  --cor-borda-foco: #888;
   --cor-erro: #c0392b;
   --cor-btn-fundo: #e0e0e0;
   --cor-btn-hover: #cacaca;
-  --cor-branco: #ffffff;
+  --cor-branco: #fff;
   --raio-borda: 4px;
   --max-largura-form: 360px;
-  --fonte-ui: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --fonte-ui: 'Segoe UI', tahoma, geneva, verdana, sans-serif;
 }
 
 *,
@@ -57,7 +57,7 @@ main header {
   border: 1px solid var(--cor-borda);
   border-bottom: none;
   border-radius: var(--raio-borda) var(--raio-borda) 0 0;
-  padding: 2rem 2rem 1.5rem 2rem;
+  padding: 2rem 2rem 1.5rem;
   background-color: var(--cor-branco);
 }
 
@@ -79,7 +79,7 @@ h1 {
   flex-direction: column;
   border: 1px solid var(--cor-borda);
   border-radius: 0 0 var(--raio-borda) var(--raio-borda);
-  padding: 1.2rem 2rem 2rem 2rem;
+  padding: 1.2rem 2rem 2rem;
   background-color: var(--cor-branco);
 }
 
@@ -113,7 +113,7 @@ input[type='password'] {
 input[type='email']:focus,
 input[type='password']:focus {
   border-color: var(--cor-borda-foco);
-  box-shadow: 0 0 0 2px rgba(136, 136, 136, 0.15);
+  box-shadow: 0 0 0 2px rgb(136 136 136 / 15%);
 }
 
 input.input-erro {
@@ -132,7 +132,7 @@ input.input-erro {
   padding: 0.6rem;
   background-color: var(--cor-btn-fundo);
   color: var(--cor-texto);
-  border: 1px solid #bbbbbb;
+  border: 1px solid #bbb;
   border-radius: var(--raio-borda);
   font-size: 0.95rem;
   font-family: var(--fonte-ui);
