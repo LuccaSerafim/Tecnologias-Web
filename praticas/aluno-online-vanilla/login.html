@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Aluno Online</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <span id="icone-graduacao" aria-hidden="true">🎓</span>
+        <h1>Aluno Online</h1>
+      </header>
+
+      <form id="form-login" novalidate>
+        <section>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+          />
+          <p id="erro-email" class="mensagem-erro" aria-live="polite"></p>
+        </section>
+
+        <section>
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            autocomplete="current-password"
+          />
+          <p id="erro-senha" class="mensagem-erro" aria-live="polite"></p>
+        </section>
+
+        <button type="submit" id="btn-entrar">Entrar</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2026. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
