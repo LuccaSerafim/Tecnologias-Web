@@ -1,22 +1,24 @@
 {
   "produtos": [
     {
-      "nome": "banana",
-      "preco": 10.5,
-      "unidade": "duzia",
-      "quantidade": 100,
-      "id": "4bXgcrrxvTY"
-    },
-    {
       "nome": "laranja pera",
       "preco": 25,
       "unidade": "unidade",
       "quantidade": 150,
       "id": "QDGwdQjYUfI"
+    },
+    {
+      "nome": "banana",
+      "preco": 15,
+      "id": "IPM74CKVgZA"
+    },
+    {
+      "nome": "banana",
+      "preco": 15,
+      "id": "3QgN114Uw68"
     }
   ],
   "fornecedores": [],
   "clientes": [],
-  "pedidos":[]
-  
+  "pedidos": []
 }
