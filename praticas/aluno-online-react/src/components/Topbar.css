@@ -1,0 +1,37 @@
+main > header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.75rem 2rem 1rem;
+  background-color: var(--color-main-bg);
+}
+
+main > header hgroup h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin: 0;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+main > header hgroup p {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+main > header figure {
+  margin: 0;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.15s ease;
+}
+
+main > header figure:hover {
+  opacity: 0.7;
+}
