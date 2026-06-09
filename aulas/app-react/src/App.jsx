@@ -1,16 +1,17 @@
-import Dashboard from './pages/Dashboard'
+import {Routes, Route} from "react-router";
+import Listagem from "./pages/Listagem";
+import Formulario from "./pages/Formulario";
+
 
 
 function App() {
-  // return  (
-  //   <div>
-  //     <h1 className = ""> Olá pessoal</h1>
-  //     <label htmlFor = "">{2+2}</label>
-  //   <p>Vamos aprender REACT</p>
-  //   <button onClick ={ () => {}}>Ok</button>
-  //   </div>
-  // )
-  return <Dashboard />
+  return <Routes>
+    <Route path = "/produtos" element={<Listagem/>} />
+    <Route path = "/produtos/novo" element={<Formulario/>} />
+    <Route path = "/produtos/editar/:id" element={<Formulario/>} />
+  
+  </Routes>
+ 
 }
 
 export default App;
